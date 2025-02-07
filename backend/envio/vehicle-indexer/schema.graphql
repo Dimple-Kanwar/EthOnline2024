@@ -1,0 +1,7 @@
+type VehicleManagement_VehicleRegistered {
+  id: ID!
+  vehicleId: BigInt!
+  owner: String!
+  model: String!
+}
+

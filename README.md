@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+# EthOnline2024
+Intent Based Micro Insurance
+=======
 # Minting a PKP with Custom Telegram Auth
 
 This code example demonstrates how to implement custom authentication and authorization using Telegram OAuth. The end result is a PKP that can only be used sign data if you have valid and recent Telegram OAuth data for a specific Telegram user.
@@ -115,3 +119,4 @@ If you'd like to dive deeper into the code to understand how this example works,
 - [litAction.ts](./src/litAction.js) contains the Lit Action code
   - The Lit Action is hardcoded to only communicate with the PKP Permission contract deployed on Chronicle Yellowstone at `0x60C1ddC8b9e38F730F0e7B70A2F84C1A98A69167`.
   - It's also hardcoded to only use the Auth Method with the type: `keccak256('Lit Developer Guide Telegram Auth Example')`.
+>>>>>>> master
